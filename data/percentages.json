@@ -1,0 +1,894 @@
+[
+    {
+        "schoolName": "Blackrock College",
+        "lcSits2023": 193,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 1
+    },
+    {
+        "schoolName": "Belvedere College",
+        "lcSits2023": 164,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 0.97
+    },
+    {
+        "schoolName": "Maynooth Post-Primary School",
+        "lcSits2023": 156,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 0.98
+    },
+    {
+        "schoolName": "Newbridge College",
+        "lcSits2023": 141,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 1
+    },
+    {
+        "schoolName": "Presentation Secondary School, Kilkenny",
+        "lcSits2023": 124,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 1
+    },
+    {
+        "schoolName": "Loreto College, Swords",
+        "lcSits2023": 122,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 0.93
+    },
+    {
+        "schoolName": "St Kieran's College, Kilkenny",
+        "lcSits2023": 114,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 0.95
+    },
+    {
+        "schoolName": "Muckross Park College, Donnybrook",
+        "lcSits2023": 111,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 1
+    },
+    {
+        "schoolName": "St Colmcille's Community School, Knocklyon",
+        "lcSits2023": 109,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 0.96
+    },
+    {
+        "schoolName": "Salesian College, Celbridge",
+        "lcSits2023": 109,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 0.76
+    },
+    {
+        "schoolName": "Loreto Abbey, Dalkey",
+        "lcSits2023": 107,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 1
+    },
+    {
+        "schoolName": "Castleknock College",
+        "lcSits2023": 107,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 0.97
+    },
+    {
+        "schoolName": "Portmarnock Community School",
+        "lcSits2023": 106,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 0.74
+    },
+    {
+        "schoolName": "St Michael's College, Ballsbridge",
+        "lcSits2023": 106,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 1
+    },
+    {
+        "schoolName": "The High School, Rathgar",
+        "lcSits2023": 106,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 1
+    },
+    {
+        "schoolName": "Mount Anville, Goatstown",
+        "lcSits2023": 106,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 1
+    },
+    {
+        "schoolName": "Mount Sackville,  Chapelizod",
+        "lcSits2023": 104,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 1
+    },
+    {
+        "schoolName": "Our Lady's, Terenure",
+        "lcSits2023": 100,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 1
+    },
+    {
+        "schoolName": "Catholic University School",
+        "lcSits2023": 93,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 1
+    },
+    {
+        "schoolName": "Holy Faith Secondary School, Clontarf",
+        "lcSits2023": 92,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 1
+    },
+    {
+        "schoolName": "Terenure College",
+        "lcSits2023": 91,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 1
+    },
+    {
+        "schoolName": "Gonzaga College, Ranelagh",
+        "lcSits2023": 90,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 1
+    },
+    {
+        "schoolName": "Santa Sabina, Sutton",
+        "lcSits2023": 89,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 0.98
+    },
+    {
+        "schoolName": "Loreto High School, Beaufort",
+        "lcSits2023": 87,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 1
+    },
+    {
+        "schoolName": "Ard Scoil Rís, Griffith Avenue",
+        "lcSits2023": 85,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 0.84
+    },
+    {
+        "schoolName": "Coláiste Eoin, Booterstown",
+        "lcSits2023": 81,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 1
+    },
+    {
+        "schoolName": "Loreto College, St Stephen's Green",
+        "lcSits2023": 80,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 1
+    },
+    {
+        "schoolName": "St Gerard's School, Bray",
+        "lcSits2023": 80,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 1
+    },
+    {
+        "schoolName": "Oatlands College, Mount Merrion",
+        "lcSits2023": 79,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 1
+    },
+    {
+        "schoolName": "Maryfield College, Drumcondra",
+        "lcSits2023": 76,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 0.8
+    },
+    {
+        "schoolName": "Coláiste Iosagain, Booterstown",
+        "lcSits2023": 74,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 1
+    },
+    {
+        "schoolName": "Gael-Choláiste Chill Dara, Naas",
+        "lcSits2023": 72,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 0.84
+    },
+    {
+        "schoolName": "St Mary's, Rathmines",
+        "lcSits2023": 70,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 1
+    },
+    {
+        "schoolName": "Coláiste Padraig CBS, Lucan",
+        "lcSits2023": 68,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 0.79
+    },
+    {
+        "schoolName": "Christian Brothers College, Monkstown",
+        "lcSits2023": 67,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 1
+    },
+    {
+        "schoolName": "Dominican College, Blackrock",
+        "lcSits2023": 64,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 0.91
+    },
+    {
+        "schoolName": "Sandford Park, Ranelagh",
+        "lcSits2023": 61,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 1
+    },
+    {
+        "schoolName": "Coláiste Chillian, Clondalkin",
+        "lcSits2023": 50,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 1
+    },
+    {
+        "schoolName": "Holy Child School, Killiney",
+        "lcSits2023": 43,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 0.93
+    },
+    {
+        "schoolName": "St Joseph of Cluny, Killiney",
+        "lcSits2023": 42,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 1
+    },
+    {
+        "schoolName": "Our Lady's Grove, Goatstown",
+        "lcSits2023": 37,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 0.96
+    },
+    {
+        "schoolName": "The Teresian School, Donnybrook",
+        "lcSits2023": 27,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 1
+    },
+    {
+        "schoolName": "Stratford College, Rathgar",
+        "lcSits2023": 25,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 0.76
+    },
+    {
+        "schoolName": "Rockbrook  Park School, Rathfarnham",
+        "lcSits2023": 22,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 0.75
+    },
+    {
+        "schoolName": "Rosemont Park School, Sandyford",
+        "lcSits2023": 19,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 0.94
+    },
+    {
+        "schoolName": "John Scottus Secondary School, Rathmichael",
+        "lcSits2023": 16,
+        "toThirdLevel2023": 1,
+        "toThirdLevel2022": 0.65
+    },
+    {
+        "schoolName": "St Mary's College, Naas",
+        "lcSits2023": 171,
+        "toThirdLevel2023": 0.99,
+        "toThirdLevel2022": 1
+    },
+    {
+        "schoolName": "Coláiste Cois Life, Lucan",
+        "lcSits2023": 106,
+        "toThirdLevel2023": 0.99,
+        "toThirdLevel2022": 0.9
+    },
+    {
+        "schoolName": "Loreto Secondary School, Bray",
+        "lcSits2023": 94,
+        "toThirdLevel2023": 0.99,
+        "toThirdLevel2022": 0.95
+    },
+    {
+        "schoolName": "Loreto College Secondary School, Foxrock",
+        "lcSits2023": 76,
+        "toThirdLevel2023": 0.99,
+        "toThirdLevel2022": 1
+    },
+    {
+        "schoolName": "CBS Kilkenny",
+        "lcSits2023": 97,
+        "toThirdLevel2023": 0.98,
+        "toThirdLevel2022": 0.85
+    },
+    {
+        "schoolName": "Gaelcholáiste An Phiarsaigh, Rathfarnham",
+        "lcSits2023": 41,
+        "toThirdLevel2023": 0.98,
+        "toThirdLevel2022": 0.85
+    },
+    {
+        "schoolName": "Wesley College, Ballinteer",
+        "lcSits2023": 148,
+        "toThirdLevel2023": 0.97,
+        "toThirdLevel2022": 1
+    },
+    {
+        "schoolName": "St Dominic's, Cabra",
+        "lcSits2023": 124,
+        "toThirdLevel2023": 0.97,
+        "toThirdLevel2022": 0.86
+    },
+    {
+        "schoolName": "Coláiste Chiarain, Leixlip",
+        "lcSits2023": 89,
+        "toThirdLevel2023": 0.97,
+        "toThirdLevel2022": 0.57
+    },
+    {
+        "schoolName": "Holy Family Secondary School, Newbridge",
+        "lcSits2023": 106,
+        "toThirdLevel2023": 0.96,
+        "toThirdLevel2022": 0.88
+    },
+    {
+        "schoolName": "Sancta Maria College, Rathfarnham",
+        "lcSits2023": 85,
+        "toThirdLevel2023": 0.96,
+        "toThirdLevel2022": 0.8
+    },
+    {
+        "schoolName": "St Joseph's College, Lucan",
+        "lcSits2023": 141,
+        "toThirdLevel2023": 0.95,
+        "toThirdLevel2022": 0.97
+    },
+    {
+        "schoolName": "St Andrew's College, Booterstown",
+        "lcSits2023": 140,
+        "toThirdLevel2023": 0.95,
+        "toThirdLevel2022": 0.97
+    },
+    {
+        "schoolName": "Loreto Secondary School, Kilkenny",
+        "lcSits2023": 150,
+        "toThirdLevel2023": 0.94,
+        "toThirdLevel2022": 1
+    },
+    {
+        "schoolName": "Maynooth Community College",
+        "lcSits2023": 67,
+        "toThirdLevel2023": 0.94,
+        "toThirdLevel2022": 0.77
+    },
+    {
+        "schoolName": "St Louis, Rathmines",
+        "lcSits2023": 109,
+        "toThirdLevel2023": 0.93,
+        "toThirdLevel2022": 0.67
+    },
+    {
+        "schoolName": "St Mary's College, Arklow",
+        "lcSits2023": 86,
+        "toThirdLevel2023": 0.93,
+        "toThirdLevel2022": 0.96
+    },
+    {
+        "schoolName": "East Glendalough Comprehensive School, Wicklow",
+        "lcSits2023": 55,
+        "toThirdLevel2023": 0.93,
+        "toThirdLevel2022": 0.79
+    },
+    {
+        "schoolName": "Mount Temple, Malahide Road",
+        "lcSits2023": 131,
+        "toThirdLevel2023": 0.92,
+        "toThirdLevel2022": 0.93
+    },
+    {
+        "schoolName": "The King's Hospital, Palmerstown",
+        "lcSits2023": 127,
+        "toThirdLevel2023": 0.92,
+        "toThirdLevel2022": 0.84
+    },
+    {
+        "schoolName": "Templeogue College",
+        "lcSits2023": 111,
+        "toThirdLevel2023": 0.92,
+        "toThirdLevel2022": 0.99
+    },
+    {
+        "schoolName": "Dominican College, Griffith Avenue",
+        "lcSits2023": 111,
+        "toThirdLevel2023": 0.92,
+        "toThirdLevel2022": 0.98
+    },
+    {
+        "schoolName": "St Fintan's High School, Sutton",
+        "lcSits2023": 107,
+        "toThirdLevel2023": 0.92,
+        "toThirdLevel2022": 0.92
+    },
+    {
+        "schoolName": "Alexandra College, Milltown",
+        "lcSits2023": 79,
+        "toThirdLevel2023": 0.92,
+        "toThirdLevel2022": 1
+    },
+    {
+        "schoolName": "Mercy Secondary School, Inchicore",
+        "lcSits2023": 13,
+        "toThirdLevel2023": 0.92,
+        "toThirdLevel2022": 0.53
+    },
+    {
+        "schoolName": "Castlecomer Community School",
+        "lcSits2023": 78,
+        "toThirdLevel2023": 0.91,
+        "toThirdLevel2022": 0.71
+    },
+    {
+        "schoolName": "Coláiste Pobal Osraí, Kilkenny",
+        "lcSits2023": 32,
+        "toThirdLevel2023": 0.91,
+        "toThirdLevel2022": 1
+    },
+    {
+        "schoolName": "Loreto, Balbriggan",
+        "lcSits2023": 193,
+        "toThirdLevel2023": 0.9,
+        "toThirdLevel2022": 0.98
+    },
+    {
+        "schoolName": "Castleknock Community College",
+        "lcSits2023": 177,
+        "toThirdLevel2023": 0.9,
+        "toThirdLevel2022": 0.85
+    },
+    {
+        "schoolName": "Newpark Comprehensive, Blackrock",
+        "lcSits2023": 118,
+        "toThirdLevel2023": 0.9,
+        "toThirdLevel2022": 0.85
+    },
+    {
+        "schoolName": "Lusk Community College",
+        "lcSits2023": 79,
+        "toThirdLevel2023": 0.9,
+        "toThirdLevel2022": 0.7
+    },
+    {
+        "schoolName": "Coláiste Éanna, Rathfarnham",
+        "lcSits2023": 88,
+        "toThirdLevel2023": 0.89,
+        "toThirdLevel2022": 0.83
+    },
+    {
+        "schoolName": "St Raphaela's Secondary School, Stillorgan",
+        "lcSits2023": 83,
+        "toThirdLevel2023": 0.89,
+        "toThirdLevel2022": 0.96
+    },
+    {
+        "schoolName": "Rathdown School, Glenageary",
+        "lcSits2023": 46,
+        "toThirdLevel2023": 0.89,
+        "toThirdLevel2022": 0.82
+    },
+    {
+        "schoolName": "Deutsche Schule, Clonskeagh",
+        "lcSits2023": 44,
+        "toThirdLevel2023": 0.89,
+        "toThirdLevel2022": 0.9
+    },
+    {
+        "schoolName": "Malahide Community School",
+        "lcSits2023": 172,
+        "toThirdLevel2023": 0.88,
+        "toThirdLevel2022": 0.96
+    },
+    {
+        "schoolName": "Kilkenny College, Kilkenny",
+        "lcSits2023": 160,
+        "toThirdLevel2023": 0.88,
+        "toThirdLevel2022": 0.91
+    },
+    {
+        "schoolName": "Naas CBS",
+        "lcSits2023": 157,
+        "toThirdLevel2023": 0.88,
+        "toThirdLevel2022": 0.82
+    },
+    {
+        "schoolName": "Sutton Park School",
+        "lcSits2023": 52,
+        "toThirdLevel2023": 0.88,
+        "toThirdLevel2022": 0.81
+    },
+    {
+        "schoolName": "Coláiste Mhuire, Cabra",
+        "lcSits2023": 30,
+        "toThirdLevel2023": 0.87,
+        "toThirdLevel2022": 0.57
+    },
+    {
+        "schoolName": "Skerries Community College",
+        "lcSits2023": 154,
+        "toThirdLevel2023": 0.86,
+        "toThirdLevel2022": 0.79
+    },
+    {
+        "schoolName": "Templecarrig Secondary School,Greystones",
+        "lcSits2023": 124,
+        "toThirdLevel2023": 0.86,
+        "toThirdLevel2022": 0.87
+    },
+    {
+        "schoolName": "Coláiste Chraobh Abhann, Kilcoole",
+        "lcSits2023": 84,
+        "toThirdLevel2023": 0.86,
+        "toThirdLevel2022": 0.52
+    },
+    {
+        "schoolName": "Confey Community College, Leixlip",
+        "lcSits2023": 147,
+        "toThirdLevel2023": 0.85,
+        "toThirdLevel2022": 0.97
+    },
+    {
+        "schoolName": "St Benildus College, Stillorgan",
+        "lcSits2023": 124,
+        "toThirdLevel2023": 0.85,
+        "toThirdLevel2022": 0.9
+    },
+    {
+        "schoolName": "St David's Holy Faith Secondary School, Greystones",
+        "lcSits2023": 91,
+        "toThirdLevel2023": 0.85,
+        "toThirdLevel2022": 0.89
+    },
+    {
+        "schoolName": "Marian College, Ballsbridge",
+        "lcSits2023": 39,
+        "toThirdLevel2023": 0.85,
+        "toThirdLevel2022": 0.59
+    },
+    {
+        "schoolName": "Adamstown Community College",
+        "lcSits2023": 138,
+        "toThirdLevel2023": 0.84,
+        "toThirdLevel2022": 0.88
+    },
+    {
+        "schoolName": "Ardscoil Na Trionóide, Athy",
+        "lcSits2023": 128,
+        "toThirdLevel2023": 0.84,
+        "toThirdLevel2022": 0.86
+    },
+    {
+        "schoolName": "Clonkeen College, Blackrock",
+        "lcSits2023": 92,
+        "toThirdLevel2023": 0.84,
+        "toThirdLevel2022": 0.73
+    },
+    {
+        "schoolName": "St Joseph's Secondary School, Rush",
+        "lcSits2023": 90,
+        "toThirdLevel2023": 0.84,
+        "toThirdLevel2022": 0.63
+    },
+    {
+        "schoolName": "Patrician Secondary School, Newbridge",
+        "lcSits2023": 141,
+        "toThirdLevel2023": 0.83,
+        "toThirdLevel2022": 0.76
+    },
+    {
+        "schoolName": "St Kevin's Community College, Dunlavin",
+        "lcSits2023": 102,
+        "toThirdLevel2023": 0.83,
+        "toThirdLevel2022": 0.62
+    },
+    {
+        "schoolName": "Scoil Chaitriona, Glasnevin",
+        "lcSits2023": 84,
+        "toThirdLevel2023": 0.83,
+        "toThirdLevel2022": 0.7
+    },
+    {
+        "schoolName": "Avondale Community College, Rathdrum",
+        "lcSits2023": 63,
+        "toThirdLevel2023": 0.83,
+        "toThirdLevel2022": 0.65
+    },
+    {
+        "schoolName": "Coláiste Pobail Setanta, Phibblestown",
+        "lcSits2023": 175,
+        "toThirdLevel2023": 0.82,
+        "toThirdLevel2022": 0.74
+    },
+    {
+        "schoolName": "Fingal Community College, Swords",
+        "lcSits2023": 144,
+        "toThirdLevel2023": 0.82,
+        "toThirdLevel2022": 0.57
+    },
+    {
+        "schoolName": "Lucan Community College",
+        "lcSits2023": 130,
+        "toThirdLevel2023": 0.82,
+        "toThirdLevel2022": 0.81
+    },
+    {
+        "schoolName": "St Aidan's, Whitehall",
+        "lcSits2023": 100,
+        "toThirdLevel2023": 0.82,
+        "toThirdLevel2022": 0.65
+    },
+    {
+        "schoolName": "Dominican Convent, Wicklow",
+        "lcSits2023": 66,
+        "toThirdLevel2023": 0.82,
+        "toThirdLevel2022": 0.64
+    },
+    {
+        "schoolName": "Coláiste Ghlór Na Mara, Balbriggan",
+        "lcSits2023": 65,
+        "toThirdLevel2023": 0.82,
+        "toThirdLevel2022": 0.68
+    },
+    {
+        "schoolName": "Gaelcholáiste Na Mara, Arklow",
+        "lcSits2023": 55,
+        "toThirdLevel2023": 0.82,
+        "toThirdLevel2022": 1
+    },
+    {
+        "schoolName": "Ardgillan Community College",
+        "lcSits2023": 162,
+        "toThirdLevel2023": 0.8,
+        "toThirdLevel2022": 0.65
+    },
+    {
+        "schoolName": "Piper's Hill College, Naas",
+        "lcSits2023": 139,
+        "toThirdLevel2023": 0.8,
+        "toThirdLevel2022": 0.75
+    },
+    {
+        "schoolName": "Cross And Passion College, Kilcullen",
+        "lcSits2023": 98,
+        "toThirdLevel2023": 0.8,
+        "toThirdLevel2022": 0.92
+    },
+    {
+        "schoolName": "Clongowes Wood College, Clane",
+        "lcSits2023": 81,
+        "toThirdLevel2023": 0.8,
+        "toThirdLevel2022": 0.97
+    },
+    {
+        "schoolName": "Gaelcholáiste Reachrann, Donaghmede",
+        "lcSits2023": 60,
+        "toThirdLevel2023": 0.8,
+        "toThirdLevel2022": 0.84
+    },
+    {
+        "schoolName": "Presentation College, Bray",
+        "lcSits2023": 98,
+        "toThirdLevel2023": 0.79,
+        "toThirdLevel2022": 0.93
+    },
+    {
+        "schoolName": "Coláiste Mhuire, Johnstown",
+        "lcSits2023": 78,
+        "toThirdLevel2023": 0.79,
+        "toThirdLevel2022": 0.62
+    },
+    {
+        "schoolName": "St Patrick's Cathedral Grammar",
+        "lcSits2023": 28,
+        "toThirdLevel2023": 0.79,
+        "toThirdLevel2022": 0.64
+    },
+    {
+        "schoolName": "St Wolstan's Community School, Celbridge",
+        "lcSits2023": 120,
+        "toThirdLevel2023": 0.78,
+        "toThirdLevel2022": 1
+    },
+    {
+        "schoolName": "Manor House School, Raheny",
+        "lcSits2023": 106,
+        "toThirdLevel2023": 0.78,
+        "toThirdLevel2022": 0.84
+    },
+    {
+        "schoolName": "Coláiste Choilm, Swords",
+        "lcSits2023": 96,
+        "toThirdLevel2023": 0.77,
+        "toThirdLevel2022": 0.63
+    },
+    {
+        "schoolName": "Rockford Manor, Blackrock",
+        "lcSits2023": 35,
+        "toThirdLevel2023": 0.77,
+        "toThirdLevel2022": 0.76
+    },
+    {
+        "schoolName": "St Macdara's Community College, Templeogue",
+        "lcSits2023": 142,
+        "toThirdLevel2023": 0.76,
+        "toThirdLevel2022": 0.6
+    },
+    {
+        "schoolName": "Coláiste Bríde, Clondalkin",
+        "lcSits2023": 132,
+        "toThirdLevel2023": 0.76,
+        "toThirdLevel2022": 0.72
+    },
+    {
+        "schoolName": "Donabate Community College",
+        "lcSits2023": 127,
+        "toThirdLevel2023": 0.76,
+        "toThirdLevel2022": 0.76
+    },
+    {
+        "schoolName": "St Mary's, Glasnevin",
+        "lcSits2023": 136,
+        "toThirdLevel2023": 0.75,
+        "toThirdLevel2022": 0.74
+    },
+    {
+        "schoolName": "St Mark's Community School, Tallaght",
+        "lcSits2023": 88,
+        "toThirdLevel2023": 0.75,
+        "toThirdLevel2022": 0.55
+    },
+    {
+        "schoolName": "St Declan's, Cabra",
+        "lcSits2023": 81,
+        "toThirdLevel2023": 0.75,
+        "toThirdLevel2022": 0.83
+    },
+    {
+        "schoolName": "St Paul's College, Raheny",
+        "lcSits2023": 68,
+        "toThirdLevel2023": 0.75,
+        "toThirdLevel2022": 0.71
+    },
+    {
+        "schoolName": "St Conleth's Community College, Newbridge",
+        "lcSits2023": 59,
+        "toThirdLevel2023": 0.75,
+        "toThirdLevel2022": 0.61
+    },
+    {
+        "schoolName": "Mount Carmel Secondary School",
+        "lcSits2023": 51,
+        "toThirdLevel2023": 0.75,
+        "toThirdLevel2022": 0.48
+    },
+    {
+        "schoolName": "Coolock Community College",
+        "lcSits2023": 12,
+        "toThirdLevel2023": 0.75
+    },
+    {
+        "schoolName": "Luttrellstown Community College, Clonsilla",
+        "lcSits2023": 164,
+        "toThirdLevel2023": 0.74,
+        "toThirdLevel2022": 0.71
+    },
+    {
+        "schoolName": "Coolmine Community School, Clonsilla",
+        "lcSits2023": 159,
+        "toThirdLevel2023": 0.74,
+        "toThirdLevel2022": 0.78
+    },
+    {
+        "schoolName": "Coláiste Bhride, Carnew",
+        "lcSits2023": 133,
+        "toThirdLevel2023": 0.74,
+        "toThirdLevel2022": 0.71
+    },
+    {
+        "schoolName": "St Finian's Community College, Swords",
+        "lcSits2023": 77,
+        "toThirdLevel2023": 0.74,
+        "toThirdLevel2022": 0.53
+    },
+    {
+        "schoolName": "St Conleth's College, Clyde Road",
+        "lcSits2023": 50,
+        "toThirdLevel2023": 0.74,
+        "toThirdLevel2022": 1
+    },
+    {
+        "schoolName": "Kildare Town Community School",
+        "lcSits2023": 161,
+        "toThirdLevel2023": 0.73,
+        "toThirdLevel2022": 0.77
+    },
+    {
+        "schoolName": "Ardscoil Rath Iomgháin, Rathangan",
+        "lcSits2023": 103,
+        "toThirdLevel2023": 0.73,
+        "toThirdLevel2022": 0.9
+    },
+    {
+        "schoolName": "Celbridge Community School",
+        "lcSits2023": 91,
+        "toThirdLevel2023": 0.73,
+        "toThirdLevel2022": 0.65
+    },
+    {
+        "schoolName": "Arklow CBS",
+        "lcSits2023": 74,
+        "toThirdLevel2023": 0.73,
+        "toThirdLevel2022": 0.73
+    },
+    {
+        "schoolName": "St Paul's, Greenhills",
+        "lcSits2023": 64,
+        "toThirdLevel2023": 0.73,
+        "toThirdLevel2022": 0.67
+    },
+    {
+        "schoolName": "Scoil Mhuire Community School, Clane",
+        "lcSits2023": 193,
+        "toThirdLevel2023": 0.72,
+        "toThirdLevel2022": 0.8
+    },
+    {
+        "schoolName": "Presentation Community College, Terenure",
+        "lcSits2023": 61,
+        "toThirdLevel2023": 0.72,
+        "toThirdLevel2022": 0.88
+    },
+    {
+        "schoolName": "Coláiste Raithín, Bray",
+        "lcSits2023": 46,
+        "toThirdLevel2023": 0.72,
+        "toThirdLevel2022": 1
+    },
+    {
+        "schoolName": "Stepaside Educate Together Secondary School",
+        "lcSits2023": 32,
+        "toThirdLevel2023": 0.72,
+        "toThirdLevel2022": 0.3
+    },
+    {
+        "schoolName": "Naas Community College",
+        "lcSits2023": 95,
+        "toThirdLevel2023": 0.71,
+        "toThirdLevel2022": 0.53
+    },
+    {
+        "schoolName": "Blessington Community College",
+        "lcSits2023": 75,
+        "toThirdLevel2023": 0.71,
+        "toThirdLevel2022": 0.61
+    },
+    {
+        "schoolName": "Coláiste Cois Siúire, Mooncoin",
+        "lcSits2023": 34,
+        "toThirdLevel2023": 0.71
+    },
+    {
+        "schoolName": "Assumption Secondary School, Walkinstown",
+        "lcSits2023": 27,
+        "toThirdLevel2023": 0.7,
+        "toThirdLevel2022": 0.88
+    },
+    {
+        "schoolName": "CBS Westland Row",
+        "lcSits2023": 20,
+        "toThirdLevel2023": 0.7,
+        "toThirdLevel2022": 0.41
+    }
+]

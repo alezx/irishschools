@@ -1,0 +1,17 @@
+@import "node_modules/ol/ol.css";
+@import "node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.school-popover {
+  --bs-popover-max-width: 500px;
+}
