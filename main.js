@@ -18,6 +18,7 @@ import * as bootstrap from 'bootstrap'
 // CODE
 
 
+
 /* load percentages*/
 const SPLIT_REGEX = /[ ,]+/
 const excludedWords = new Set(['College', 'Community', 'School', 'Secondary', 'School', 'St', 'Road']);
@@ -73,127 +74,6 @@ const map = new Map({
     zoom: 11
   })
 });
-
-
-
-/* load secondary schools */
-const schoolsFile = await fetch('data/secondary-schools.json');
-const secSchools = await schoolsFile.json();
-
-var secondarySchoolMarkers = new VectorLayer({
-  source: new VectorSource(),
-  style: function(feature, resolution) {
-    let styles = [];
-    let school = feature.get('school');
-    styles.push(new Style({
-      image: new Icon({
-        anchor: [0.5, 1],
-        src: school.schoolGenderPostPrimary == "Girls" ? 
-          'resources/school-girls.png' : 
-          school.schoolGenderPostPrimary == "Boys" ? 
-          'resources/school-boys.png' : 'resources/school-mix.png'
-      })
-    }));
-    if (school.feePayingSchoolYn == 'Y') {
-      styles.push(new Style({
-        image: new Icon({
-          anchor: [0, 1],
-          src: 'resources/dollar.png'
-        })
-      }));
-    }
-    if (school.ethosreligion == 'CATHOLIC') {
-      styles.push(new Style({
-        image: new Icon({
-          anchor: [0.5, 3],
-          src: 'resources/cross.png'
-        })
-      }));
-    }
-    styles.push(new Style({
-        text: new Text({
-          text: findPerchentage(school),
-          offsetX: -20,
-          offsetY: -8,
-          font: '14px Calibri,sans-serif',
-          fill: new Fill({
-            color: 'black',
-          }),
-          stroke: new Stroke({
-            color: 'white',
-            width: 2,
-          })
-        })
-    }));
-    return styles; 
-  }
-});
-map.addLayer(secondarySchoolMarkers);
-
-for (let i = 0; i < secSchools.length; i++) {
-  let school = secSchools[i];
-  if (school.county != 'Dublin' && school.county != 'Wicklow') {
-    continue;
-  }
-  let marker = new Feature({
-    geometry: new Point(fromLonLat([school.schoolLongitude, school.schoolLatitude])),
-    name: school.name,
-    school: school
-  });
-  secondarySchoolMarkers.getSource().addFeature(marker);
-}
-
-
-/* load primary schools */
-const pSchoolsFile = await fetch('data/primary-schools.json');
-const pSchools = await pSchoolsFile.json();
-var primarySchoolMarkers = new VectorLayer({
-  source: new VectorSource(),
-  style: function(feature, resolution) {
-    let styles = [];
-    let school = feature.get('school');
-    styles.push(new Style({
-      image: new Icon({
-        anchor: [0.5, 1],
-        scale: 0.8,
-        src: 'resources/primary-school.png'
-      })
-    }));
-    if (school.feePayingSchoolYn == 'Y') {
-      styles.push(new Style({
-        image: new Icon({
-          anchor: [0, 1],
-          src: 'resources/dollar.png'
-        })
-      }));
-    }
-    if (school.ethosDescription == 'Catholic') {
-      styles.push(new Style({
-        image: new Icon({
-          anchor: [0.5, 2.5],
-          src: 'resources/cross.png'
-        })
-      }));
-    }
-    return styles; 
-  }
-});
-map.addLayer(primarySchoolMarkers);
-
-for (let i = 0; i < pSchools.length; i++) {
-  let school = pSchools[i];
-  school.name = school.officialName;
-  if (school.countyDescription != 'Dublin' && school.countyDescription != 'Wicklow') {
-    continue;
-  }
-  let marker = new Feature({
-    geometry: new Point(fromLonLat([school.schoolLongitude, school.schoolLatitude])),
-    name: school.officialName,
-    school: school
-  });
-  primarySchoolMarkers.getSource().addFeature(marker);
-}
-
 
 
 /* PopUp */
@@ -252,3 +132,131 @@ map.on('pointermove', function (e) {
 });
 // Close the popup when the map is moved
 map.on('movestart', disposePopover);
+
+
+var primarySchoolMarkers;
+document.getElementById('pSchoolsCheckbox').addEventListener('change', async function() {
+    if (this.checked) {
+        /* load primary schools */
+        const pSchoolsFile = await fetch('data/primary-schools.json');
+        const pSchools = await pSchoolsFile.json();
+        primarySchoolMarkers = new VectorLayer({
+            source: new VectorSource(),
+            style: function(feature, resolution) {
+                let styles = [];
+                let school = feature.get('school');
+                styles.push(new Style({
+                    image: new Icon({
+                        anchor: [0.5, 1],
+                        scale: 0.8,
+                        src: 'resources/primary-school.png'
+                    })
+                }));
+                if (school.feePayingSchoolYn == 'Y') {
+                    styles.push(new Style({
+                        image: new Icon({
+                            anchor: [0, 1],
+                            src: 'resources/dollar.png'
+                        })
+                    }));
+                }
+                if (school.ethosDescription == 'Catholic') {
+                    styles.push(new Style({
+                        image: new Icon({
+                            anchor: [0.5, 2.5],
+                            src: 'resources/cross.png'
+                        })
+                    }));
+                }
+                return styles;
+            }
+        });
+        map.addLayer(primarySchoolMarkers);
+        for (let i = 0; i < pSchools.length; i++) {
+            let school = pSchools[i];
+            school.name = school.officialName;
+            if (school.countyDescription != 'Dublin' && school.countyDescription != 'Wicklow') {
+                continue;
+            }
+            let marker = new Feature({
+                geometry: new Point(fromLonLat([school.schoolLongitude, school.schoolLatitude])),
+                name: school.officialName,
+                school: school
+            });
+            primarySchoolMarkers.getSource().addFeature(marker);
+        }
+    } else {
+      map.removeLayer(primarySchoolMarkers);
+    }
+});
+
+
+var secondarySchoolMarkers;
+document.getElementById('sSchoolsCheckbox').addEventListener('change', async function() {
+    if (this.checked) {
+        /* load secondary schools */
+        const schoolsFile = await fetch('data/secondary-schools.json');
+        const secSchools = await schoolsFile.json();
+        secondarySchoolMarkers = new VectorLayer({
+            source: new VectorSource(),
+            style: function(feature, resolution) {
+                let styles = [];
+                let school = feature.get('school');
+                styles.push(new Style({
+                    image: new Icon({
+                        anchor: [0.5, 1],
+                        src: school.schoolGenderPostPrimary == "Girls" ? 'resources/school-girls.png' : school.schoolGenderPostPrimary == "Boys" ? 'resources/school-boys.png' : 'resources/school-mix.png'
+                    })
+                }));
+                if (school.feePayingSchoolYn == 'Y') {
+                    styles.push(new Style({
+                        image: new Icon({
+                            anchor: [0, 1],
+                            src: 'resources/dollar.png'
+                        })
+                    }));
+                }
+                if (school.ethosreligion == 'CATHOLIC') {
+                    styles.push(new Style({
+                        image: new Icon({
+                            anchor: [0.5, 3],
+                            src: 'resources/cross.png'
+                        })
+                    }));
+                }
+                styles.push(new Style({
+                    text: new Text({
+                        text: findPerchentage(school),
+                        offsetX: -20,
+                        offsetY: -8,
+                        font: '14px Calibri,sans-serif',
+                        fill: new Fill({
+                            color: 'black',
+                        }),
+                        stroke: new Stroke({
+                            color: 'white',
+                            width: 2,
+                        })
+                    })
+                }));
+                return styles;
+            }
+        });
+        map.addLayer(secondarySchoolMarkers);
+        for (let i = 0; i < secSchools.length; i++) {
+            let school = secSchools[i];
+            if (school.county != 'Dublin' && school.county != 'Wicklow') {
+                continue;
+            }
+            let marker = new Feature({
+                geometry: new Point(fromLonLat([school.schoolLongitude, school.schoolLatitude])),
+                name: school.name,
+                school: school
+            });
+            secondarySchoolMarkers.getSource().addFeature(marker);
+        }
+    } else {
+        map.removeLayer(secondarySchoolMarkers);
+    }
+});
+document.getElementById('sSchoolsCheckbox').click();
